@@ -32,7 +32,7 @@ app.layout = html.Div(
                 html.Img(
                     src='assets/shhs.png',
                     style={
-                        'width': '120px',
+                        'width': '300px',      # ENLARGED IMAGE WIDTH
                         'height': 'auto',
                         'display': 'block',
                         'margin': '0 auto 10px auto'
@@ -40,7 +40,7 @@ app.layout = html.Div(
                 ),
                 html.H1(
                     "Children's Museum of Indianapolis: President's Day Jump Challenge! 🏀",
-                    style={'color': 'crimson'}  # set heading color to crimson
+                    style={'color': 'crimson'}
                 )
             ]
         ),
